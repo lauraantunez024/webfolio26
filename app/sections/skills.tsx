@@ -60,7 +60,9 @@ export default function Skills() {
     {
       type: 'Data',
       skillSet: [
-        'pandas, seaborn, matplotlib',
+        'pandas', 
+        'seaborn', 
+        'Matplotlib',
         'D3.js',
         'Power BI',
       ]
