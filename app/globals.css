@@ -14,6 +14,8 @@
   --label: #3a4a40;
   --list-item: #6b7a72;
   --text-light: #c8d4cc;
+  --text-dark: #7a8a82;
+  --text-darker: #5a7060;
 
   --accent-main: #5aff8c;
   --accent-hover: #7fffaa;
@@ -42,6 +44,9 @@ body {
 
 section {
   min-height: 80vh!important;
+}
+section#skills {
+  min-height: 70vh!important;
 }
 
 p {
