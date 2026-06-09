@@ -78,10 +78,10 @@ export default function Skills() {
           <span className="font-light text-(--accent-main) text-lg"> Skills </span>
           <div className="border-b border-(--border) w-full mb-1"> </div>
         </div>
-        <div className="flex flex-row py-8 flex-wrap justify-center">
+        <div className="flex flex-col lg:flex-row py-8 flex-wrap justify-center">
           {
             skills.map((skill, i) => (
-              <div key={i} className="border border-(--border) w-[30%] p-2 bg-(--card-bg)">
+              <div key={i} className="border border-(--border) lg:w-[30%]  p-2 bg-(--card-bg)">
                 <span className="  w-full text-(--accent-main) uppercase text-xs font-bold p-1 ibm-mono-font"> {skill.type}</span>
                 <div className="border-b border-(--border) py-1"></div>
 

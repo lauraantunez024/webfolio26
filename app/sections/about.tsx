@@ -4,9 +4,9 @@ export default function About() {
 
     const details = [
         { label: 'Location', value: 'Augusta, GA' },
-        { label: 'Focus', value: 'Full Stack / Production Eng.' },
+        { label: 'Focus', value: 'Full Stack, Production support' },
         { label: 'Education', value: 'BA Journalism - FIU ' },
-        { label: 'Certifications', value: 'Full Stack Dev Bootcamp - Georgia Tech' },
+        { label: 'Certifications', value: 'Full Stack Dev Bootcamp' },
     ]
     return (
 
@@ -22,17 +22,17 @@ export default function About() {
                 <div className="flex flex-col md:flex-row p-4 md:p-6 gap-6 md:gap-4 justify-between align-middle">
                     <div className="w-full md:w-[45%] text-base md:text-lg/9 ibm-sans-font self-center m-auto">
 
-                            <p>Starting with learning data analysis for journalism less than 6 months after graduaging, I've progressed to junior software developer with industry experience. </p>
+                            <p>Starting with learning data analysis for journalism less than 6 months after graduating, I've progressed to junior software developer with industry experience. </p>
                             <p>Over four years at SpringBig, I grew from QA into a full-stack engineering role. I built features using Rails and Vue, and handled production incidents on the ingressions {'(production support)'} team. With over 100 production reports solved, my passion for problem solving is fueled by my love of people and making them feel valued.</p>
                             <p><strong>What makes me different:</strong> my journalism degree makes me an expert communicator and investigator. I speak Spanish and have proven experience working remote</p>
 
                     </div>
                     <div className="flex flex-col min-h-[80%] justify-around align-middle">
                         {details.map((detail, i) => (
-                            <div className="flex flex-col">
-                                <div key={i} className="gap-6 flex flex-row justify-start">
-                                    <span className="w-[20%] text-(--label) ibm-mono-font uppercase text-xs">{detail.label}</span>
-                                    <span className="ibm-sans-font">{detail.value}</span>
+                            <div className="flex flex-col ">
+                                <div key={i} className="gap-6 flex flex-row justify-between lg:justify-start sm:p-4">
+                                    <span className="lg:w-[20%] text-(--label) ibm-mono-font uppercase text-xs">{detail.label}</span>
+                                    <span className="ibm-sans-font lg:text-sm text-xs">{detail.value}</span>
                                 </div>
                                 <div className="border-b border-(--border) w-full md:w-[44vw]"></div>
 
@@ -40,9 +40,9 @@ export default function About() {
                         )
                         )}
                         <div className="flex flex-col ">
-                            <div className="gap-6 flex flex-row justify-start">
+                            <div className="gap-6 flex flex-row justify-between lg:justify-start">
                                 <span className="w-[20%] text-(--label) uppercase text-xs ibm-mono-font">Status</span>
-                                <span className="text-(--accent-main) ibm-sans-font">Open to new roles</span>
+                                <span className="text-(--accent-main) ibm-sans-font lg:text-sm text-xs">Open to new roles</span>
                             </div>
                             <div className="border-b border-(--border) w-full md:w-[44vw]"></div>
 

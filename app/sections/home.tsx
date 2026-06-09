@@ -32,7 +32,7 @@ export default function Landing() {
                     </button>
                 </a>
             </div>
-            <div className="flex flex-col sm:flex-row py-6 gap-6 sm:text-center sm:gap-4 sm:justify-around">
+            <div className="flex flex-col sm:flex-row p-6 gap-6 sm:text-center sm:gap-4 sm:justify-around">
                 <div className="flex flex-col">
                     <span className="text-xl text-(--accent-main) font-bold"> 4 Years</span>
                     <span className=" text-sm text-(--muted)"> Industry Experience</span>
