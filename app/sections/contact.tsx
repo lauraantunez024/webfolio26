@@ -33,9 +33,9 @@ export default function Contact() {
                     <span className="font-light text-(--accent-main) text-lg"> Contact </span>
                     <div className="border-b border-(--border) w-full mb-1"> </div>
                 </div>
-                <div className="flex flex-row gap-4 m-6">
-                    <div className="w-[50%]">
-                        <div className="text-2xl ibm-sans-font font-light text-(--dim)">
+                <div className="flex flex-col md:flex-row gap-6 md:gap-4 m-4 md:m-6">
+                    <div className="w-full md:w-[50%]">
+                        <div className="text-xl md:text-2xl ibm-sans-font font-light text-(--dim)">
                             Open to <span className="font-bold">full-stack </span> and <span className="font-bold">production engineering </span> roles. Relocation considered.
                         </div>
                     </div>
@@ -43,7 +43,7 @@ export default function Contact() {
                         {contactInfo.map((contact, i) => (
                             <Link key={i} href={contact.url} target="_blank">
 
-                                <div className="border border-(--border  bg-(--card-bg) w-[45vw] p-4 flex flex-col contact-link">
+                                <div className="border border-(--border  bg-(--card-bg) w-full md:w-[45vw] p-4 flex flex-col contact-link">
                                     <div className="flex flex-row justify-between">
                                         <div className="flex flex-col">
 

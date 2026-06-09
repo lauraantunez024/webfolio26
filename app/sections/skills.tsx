@@ -21,6 +21,7 @@ export default function Skills() {
         'Vue',
         'Next/Nuxt',
         'Tailwind',
+        'Blazor',
 
       ]
     },

@@ -13,7 +13,7 @@ export default function Home() {
         <ExperienceSection/>
         <ProjectSection/>
         <ContactSection/>
-        <div className="flex flex-row justify-between p-4 my-8 text-(--text-darker) ibm-mono-font text-xs">
+        <div className="flex flex-col sm:flex-row gap-2 sm:justify-between p-4 my-8 text-(--text-darker) ibm-mono-font text-xs">
           <span>© 2026 Laura Antunez — lauraantunez.com</span>
           <span>Built with Next.js and Tailwind</span>
         </div>

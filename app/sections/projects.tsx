@@ -39,7 +39,7 @@ export default function Projects() {
                     <span className="font-light text-(--accent-main) text-lg"> Projects </span>
                     <div className="border-b border-(--border) w-full mb-1"> </div>
                 </div>
-                <div className="grid grid-flow-row p-4 grid-cols-2 py-8">
+                <div className="grid grid-flow-row p-4 grid-cols-1 md:grid-cols-2 py-8 gap-4">
                     {portfolio.map((project, i) => (
                         <Link href={project.siteUrl} target="_blank">
 
@@ -50,7 +50,7 @@ export default function Projects() {
 
                         </div>
                         <span className="my-4">{project.description}</span>
-                        <div className="flex flex-row gap-4 my-4">
+                        <div className="flex flex-row gap-4 flex-wrap my-4">
                             {
                                 project.technologies.map((t, i) => (
                                     <div key={i} className="border border-(--g-border) bg-(--tag-bg) text-(--accent-main) p-1 px-2 ibm-mono-font text-sm"> {t} </div>

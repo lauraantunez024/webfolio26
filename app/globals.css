@@ -44,10 +44,15 @@ body {
 }
 
 section {
-  min-height: 80vh!important;
+  min-height: auto;
 }
-section#skills {
-  min-height: 70vh!important;
+@media (min-width: 768px) {
+  section {
+    min-height: 80vh !important;
+  }
+  section#skills {
+    min-height: 70vh !important;
+  }
 }
 
 p {
@@ -80,7 +85,7 @@ p {
 .hero-name .cursor {
   display: inline-block;
   width: 3px;
-  height: 44px;
+  height: 1em;
   background: #5aff8c;
   vertical-align: bottom;
   margin-left: 4px;
