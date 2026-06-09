@@ -22,9 +22,9 @@ export default function About() {
                 <div className="flex flex-row p-6 gap-4 justify-between align-middle">
                     <div className="w-[45%] text-lg/9 ibm-sans-font self-center m-auto">
 
-                            <p>I started in QA — which means I've broken more software than most engineers have written. That background gives me a different angle: I think about edge cases first, write code that's testable by design, and don't ship things I wouldn't want to debug at 2am.</p>
-                            <p>Over four years at SpringBig, I grew from QA into a full-stack engineering role — building features in Rails and Vue, handling production incidents, and learning what it actually takes to keep a system healthy at scale.</p>
-                            <p>Outside of code: journalism degree from FIU, fluent in Spanish, currently based in Augusta, GA.</p>
+                            <p>Starting with learning data analysis for journalism less than 6 months after graduaging, I've progressed to junior software developer with industry experience. </p>
+                            <p>Over four years at SpringBig, I grew from QA into a full-stack engineering role. I built features using Rails and Vue, and handled production incidents on the ingressions {'(production support)'} team. With over 100 production reports solved, my passion for problem solving is fueled by my love of people and making them feel valued.</p>
+                            <p><strong>What makes me different:</strong> my journalism degree makes me an expert communicator and investigator. I speak Spanish and have proven experience working remote</p>
 
                     </div>
                     <div className="flex flex-col min-h-[80%] justify-around align-middle">

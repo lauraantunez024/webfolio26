@@ -35,8 +35,8 @@ export default function Contact() {
                 </div>
                 <div className="flex flex-row gap-4 m-6">
                     <div className="w-[50%]">
-                        <div className="text-xl ibm-sans-font font-light text-(--dim)">
-                            Open to <span className="font-bold">full-stack </span> and <span className="font-bold">production engineering roles</span> — especially teams that care about the craft of building reliable software.
+                        <div className="text-2xl ibm-sans-font font-light text-(--dim)">
+                            Open to <span className="font-bold">full-stack </span> and <span className="font-bold">production engineering </span> roles. Relocation considered.
                         </div>
                     </div>
                     <div className="flex flex-col gap-4">

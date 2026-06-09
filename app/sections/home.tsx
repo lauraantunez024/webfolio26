@@ -12,7 +12,7 @@ export default function Landing() {
                 <span className="text-(--text-header) text-[4rem] font-bold hero-name ibm-sans-font">Laura Antunez<span className="cursor"></span></span>
                 <p className="text-(--text-dim) max-w-[50%] text-xl">
 
-                    <span>Full-stack engineer specializing in <span className="text-(--text-body)">Ruby on Rails, Vue.js</span>, and <span className="text-(--text-body)">AWS</span>. I build systems that scale and ship code that holds up in production.</span>
+                    <span>Full-stack engineer with experience using <span className="text-(--text-body)">Ruby on Rails, Vue.js</span>, and <span className="text-(--text-body)">AWS</span>. Hands on experience leading <span className="text-(--text-body)">production support</span> and <span className="text-(--text-body)">quality assurance</span> testing.</span>
                 </p>
             </div>
             <div className="flex flex-row gap-2">
