@@ -43,10 +43,10 @@ export default function Projects() {
                     {portfolio.map((project, i) => (
                         <Link href={project.siteUrl} target="_blank">
 
-                    <div className=" flex-col flex justify-between bg-(--card-bg) border border-(--border) min-w-[50%] min-h-[55%] p-4">
-                        <div className="flex flex-row justify-between">
-                            <span className="ibm-mono-font text-md font-extrabold!">{project.title}</span>
-                            <span className="text-sm text-(--accent-main)">↗</span>
+                    <div className=" flex-col flex justify-between bg-(--card-bg) border border-(--border) min-w-[50%] min-h-[55%] p-4 project-link">
+                        <div className="flex flex-row justify-between project-link">
+                            <span className="ibm-mono-font text-md font-extrabold">{project.title}</span>
+                            <span className="text-sm text-(--label) cl-arrow">↗</span>
 
                         </div>
                         <span className="my-4">{project.description}</span>

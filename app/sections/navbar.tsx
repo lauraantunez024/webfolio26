@@ -9,12 +9,12 @@ export default function Navbar() {
         <span className="text-(--accent-main)"> laura@antunez:~$</span>
         </div>
 
-        <div className="flex flex-row gap-4 text-(--text-dim) text-sm">
-            <Link href='#about'>ABOUT</Link>
-            <Link href='#experience'>EXPERIENCE</Link>
-            <Link href='#projects'>PROJECTS</Link>
-            <Link href='#contact'>CONTACT</Link>
-            <Link href=''>RESUME.PDF</Link>
+        <div className="flex flex-row justify-center gap-4 text-(--text-dim) text-xs font-bold ibm-mono-font">
+            <Link className="hover:text-(--accent-main)" href='#about'>ABOUT</Link>
+            <Link className="hover:text-(--accent-main)" href='#experience'>EXPERIENCE</Link>
+            <Link className="hover:text-(--accent-main)" href='#projects'>PROJECTS</Link>
+            <Link className="hover:text-(--accent-main)" href='#contact'>CONTACT</Link>
+            <Link className="hover:text-(--accent-main)" href='/resume.pdf' target="_blank">RESUME.PDF</Link>
 
         </div>
       </main>

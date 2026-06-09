@@ -3,6 +3,7 @@
 :root {
   --background: #0d0f0e;
   --card-bg: #0f1210;
+  --card-bg-hover: #131816;
   --border: #2a2e2b;
   --card-border: #1e2420;
   --text-headings: #f0f5f2;
@@ -96,3 +97,12 @@ p {
 .ibm-mono-font {
   font-family: 'IBM Plex Mono', monospace;
 }
+
+
+.contact-link:hover { border-color: var(--accent-main); }
+.contact-link:hover .cl-label { color: var(--accent-main); }
+.contact-link:hover .cl-arrow { color: var(--accent-main); }
+
+.project-link:hover { background-color: var(--card-bg-hover); }
+.project-link:hover .cl-label { color: var(--accent-main); }
+.project-link:hover .cl-arrow { color: var(--accent-main); }

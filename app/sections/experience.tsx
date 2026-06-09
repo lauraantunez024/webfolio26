@@ -4,7 +4,7 @@ export default function Experience() {
     const experience = [
         {
             title: 'CEO',
-            years: 'present-2026',
+            years: 'Present-2026',
             company: 'Tech Sapote - Local Business Solutions',
             location: 'remote',
             description: 'Progressed from QA Engineer to Junior Software Engineer over four years. Built and maintained features across a Rails API and Vue.js frontend serving thousands of dispensary locations. Owned production support rotations, wrote automated test coverage, and contributed to AWS infrastructure and monitoring via CloudWatch.',
@@ -12,7 +12,7 @@ export default function Experience() {
         },
         {
             title: 'Junior Software Engineer',
-            years: '2024-2020',
+            years: '2026-2022',
             company: 'SpringBig — Cannabis retail SaaS platform',
             location: 'remote',
             description: 'Progressed from QA Engineer to Junior Software Engineer over four years. Built and maintained features across a Rails API and Vue.js frontend serving thousands of dispensary locations. Owned production support rotations, wrote automated test coverage, and contributed to AWS infrastructure and monitoring via CloudWatch.',

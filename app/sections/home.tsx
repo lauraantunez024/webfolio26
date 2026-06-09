@@ -20,16 +20,17 @@ export default function Landing() {
                     tags.map((tag, i) => (
                         <div key={i} className="border border-(--g-border) bg-(--tag-bg) text-(--accent-main) p-1 px-2 ibm-mono-font text-sm"> {tag} </div>
                     ))
-
                 }
             </div>
             <div className="flex flex-row gap-4 border-b border-(--card-border) pb-10 ibm-mono-font">
-                <button className="bg-(--accent-main) text-(--background) text-sm font-bold p-2 rounded px-5">
+                <button className="bg-(--accent-main) text-(--background) hover:bg-(--accent-hover) text-sm font-bold p-2 rounded px-5">
                     get in touch
                 </button>
-                <button className="border border-(--card-border) p-2 py-2 rounded">
-                    View my resume
-                </button>
+                <a href="/resume.pdf" target="_blank">
+                    <button className="border border-(--card-border) p-2 py-2 px-5 rounded contact-link">
+                        <span className="cl-label"> view resume ↗ </span>
+                    </button>
+                </a>
             </div>
             <div className="flex flex-row gap-4 justify-around">
                 <div className="flex flex-col">
