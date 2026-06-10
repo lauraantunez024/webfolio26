@@ -40,8 +40,8 @@ export default function About() {
                         )
                         )}
                         <div className="flex flex-col ">
-                            <div className="gap-6 flex flex-row justify-between lg:justify-start">
-                                <span className="w-[20%] text-(--label) uppercase text-xs ibm-mono-font">Status</span>
+                            <div className="gap-6 flex flex-row justify-between lg:justify-start sm:p-4">
+                                <span className="lg:w-[20%] text-(--label) uppercase text-xs ibm-mono-font">Status</span>
                                 <span className="text-(--accent-main) ibm-sans-font lg:text-sm text-xs">Open to new roles</span>
                             </div>
                             <div className="border-b border-(--border) w-full md:w-[44vw]"></div>

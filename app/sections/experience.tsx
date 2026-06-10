@@ -7,7 +7,7 @@ export default function Experience() {
             years: 'Present-2026',
             company: 'Tech Sapote - Local Business Solutions',
             location: 'remote',
-            description: 'Progressed from QA Engineer to Junior Software Engineer over four years. Built and maintained features across a Rails API and Vue.js frontend serving thousands of dispensary locations. Owned production support rotations, wrote automated test coverage, and contributed to AWS infrastructure and monitoring via CloudWatch.',
+            description: 'Offering local business solutions and custom software. Some of the offerings are setting up a google business account, website with Next.js, and a digital audit tool that tells owner what their digital presence needs.',
             technologies: ['Next.js', 'PayloadCMS', 'Stripe'],
         },
         {
@@ -23,7 +23,7 @@ export default function Experience() {
             years: '2021',
             company: 'Hechinger Report - Education focused Journalism',
             location: 'remote',
-            description: 'Progressed from QA Engineer to Junior Software Engineer over four years. Built and maintained features across a Rails API and Vue.js frontend serving thousands of dispensary locations. Owned production support rotations, wrote automated test coverage, and contributed to AWS infrastructure and monitoring via CloudWatch.',
+            description: 'Worked with journalists to uncover stories within large csv files. Used python pandas to clean data sets to make them interpretable. Reported and created data visualizations for an article on sex education.',
             technologies: ['Ruby on Rails', 'Vue.js', 'AWS', 'Postgresql', 'RSpec'],
         },
         
