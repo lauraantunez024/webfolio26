@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is the third iteration of my portfolio, and the second one where I use Next.js. The first one [being](https://themeforest-mamey-template.vercel.app/) where I derived inspiration from a Mamey Sapote for the color palette.
 
-## Getting Started
+## Design inspiration
 
-First, run the development server:
+I love old school tech so I wanted to make something that looked like it came from Hackers (1995) starring Angelina Jolie.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+As I am not the best designer, I asked claude to give me an idea of what I wanted to achieve in HTML, and then I translated that to React components using Next.js. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Subsections 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* Landing  
+  * Includes skill tags, name, short bio, some stats about me, and links to my portfolio and contact section
+* About - 2 column flex box
+  * Left column is a longer description of my background
+  * Right column are highlighted points such as my location and my certifications
+* Skills table
+  * Broken down by subsections: languages, frontend, backend, data, databases and testing
+  * This details the specific technologies I have familiarity with
+* Experience time line
+  * Helps paint the picture of my growth as a dev. From humble beginnings as a Quality Assurance Intern to a full fledged software developer.
+* Project cards
+  * Clickable cards that include technology / skill tags, as well as your standard heading and subheading
+* Contact 2 column flex box
+  * Left section shows my current status, whether I am accepting new roles or now
+  * Right section links to my email, linkedin, resume and github.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Thanks for checking out my stuff!
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Reach out via one of the contact methods on my site if you want to work together!**

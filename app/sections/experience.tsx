@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Experience() {
     const experience = [
         {
-            title: 'CEO',
+            title: 'Founder',
             years: 'Present-2026',
             company: 'Tech Sapote - Local Business Solutions',
             location: 'remote',
