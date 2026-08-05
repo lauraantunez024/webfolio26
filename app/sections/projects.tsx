@@ -9,6 +9,8 @@ export default function Projects() {
             description: "Website for business offerings with payload cms backend. Includes admin panel and Stripe integration ",
             technologies: ['Next.js', 'Payload CMS', 'Postgresql', 'Stripe'],
             siteUrl: "https://www.techsapote.com",
+            githubUrl: "https://gitlab.com/tech-sapote/techsapote"
+
         },
         // {
         //     title: "Discord movie bot",
@@ -27,6 +29,8 @@ export default function Projects() {
             description: "Interactive map that shows the status of sex education in all states.",
             technologies: ['D3.js', 'JQuery', 'HTML/CSS/JS'],
             siteUrl: "https://hechingerreport.org/the-politics-of-sex-ed-leave-a-lot-untaught/",
+            githubUrl: "https://github.com/lauraantunez024/SexEd_MapInteractive"
+
         },
 
     ];
@@ -47,17 +51,20 @@ export default function Projects() {
                                 <div className="flex flex-row justify-between project-link">
                                     <span className="ibm-mono-font text-md font-extrabold">{project.title}</span>
                                     <span className="text-sm text-(--label) cl-arrow">↗</span>
-
                                 </div>
                                 <span className="my-4">{project.description}</span>
-                                <div className="flex flex-row gap-4 flex-wrap my-4">
+                                <div className="flex flex-row justify-between gap-4 flex-wrap my-4">
+                                    <div className="flex flex-row gap-4">
+
                                     {
                                         project.technologies.map((t, i) => (
                                             <div key={i} className="border border-(--g-border) bg-(--tag-bg) text-(--accent-main) p-1 px-2 ibm-mono-font text-sm"> {t} </div>
-
+                                            
                                         ))
                                     }
+                                    </div>
 
+                                    <a className="hover:text-(--accent-main)" href={project.githubUrl} target="_blank">Link to github</a>
                                 </div>
                             </div>
                         </Link>
