@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
 
     const details = [
-        { label: 'Location', value: 'Augusta, GA' },
+        { label: 'Location', value: 'Georgia' },
         { label: 'Focus', value: 'Full Stack, Production support' },
         { label: 'Education', value: 'BA Journalism - FIU ' },
         { label: 'Certifications', value: 'Full Stack Dev Bootcamp' },

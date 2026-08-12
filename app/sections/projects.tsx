@@ -12,12 +12,12 @@ export default function Projects() {
             githubUrl: "https://gitlab.com/tech-sapote/techsapote"
 
         },
-        // {
-        //     title: "Discord movie bot",
-        //     description: "Slash-command bot for scheduling movie nights across a Discord channel. Handles time coordination, reminders, and persistent scheduling via cron.",
-        //     technologies: ['Node.js', 'Postgresql', 'Sequelize'],
-        //     siteUrl: "https://www.google.com",
-        // },
+        {
+            title: "National Film Registry Scraper and Tracker",
+            description: " This scrapes the National Film Registry site, adds the year released and film title to a Mongodb database, and leaves room for a rating and comment. ",
+            technologies: ['Python', 'MongoDB', 'BeautifulSoup' ],
+            siteUrl: "https://www.google.com",
+        },
         // {
         //     title: "Manifest Station Calendar",
         //     description: "",
