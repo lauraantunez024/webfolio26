@@ -14,9 +14,12 @@ export default function Projects() {
         },
         {
             title: "National Film Registry Scraper and Tracker",
-            description: " This scrapes the National Film Registry site, adds the year released and film title to a Mongodb database, and leaves room for a rating and comment. ",
-            technologies: ['Python', 'MongoDB', 'BeautifulSoup' ],
-            siteUrl: "https://www.google.com",
+            description: "Python scraper adds National film registry titles to a MongoDB database, and enriches data using OMDB and TMDB APIs. Flask backend supports get, and posting comments and ratings.",
+            technologies: ['Python', 'MongoDB', 'BeautifulSoup', 'Flask', 'Next.js' ],
+            siteUrl: "https://nfr-scraper-and-tracker.vercel.app/",
+            githubUrl: "https://github.com/lauraantunez024/NFR-Scraper-and-Tracker"
+
+            
         },
         // {
         //     title: "Manifest Station Calendar",
